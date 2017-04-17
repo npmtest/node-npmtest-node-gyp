@@ -1,7 +1,7 @@
 # test coverage for  [node-gyp (v3.6.0)](https://github.com/nodejs/node-gyp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gyp.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gyp)
 #### Node.js native addon build tool
 
-[![NPM](https://nodei.co/npm/node-gyp.png?downloads=true)](https://www.npmjs.com/package/node-gyp)
+[![NPM](https://nodei.co/npm/node-gyp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-gyp)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-node-gyp/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-gyp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-gyp/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-gyp/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-node-gyp/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-node-gyp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-gyp/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-node-gyp/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-node-gyp%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-gyp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-node-gyp/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-gyp/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-node-gyp%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-gyp/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.html](https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-node-gyp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-gyp/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-node-gyp/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-gyp/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-gyp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-gyp/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-node-gyp/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +34,6 @@
 {
     "author": {
         "name": "Nathan Rajlich",
-        "email": "nathan@tootallnate.net",
         "url": "http://tootallnate.net"
     },
     "bin": {
@@ -83,34 +88,27 @@
     "main": "./lib/node-gyp.js",
     "maintainers": [
         {
-            "name": "TooTallNate",
-            "email": "nathan@tootallnate.net"
+            "name": "TooTallNate"
         },
         {
-            "name": "bnoordhuis",
-            "email": "info@bnoordhuis.nl"
+            "name": "bnoordhuis"
         },
         {
-            "name": "fishrock123",
-            "email": "fishrock123@rocketmail.com"
+            "name": "fishrock123"
         },
         {
-            "name": "isaacs",
-            "email": "i@izs.me"
+            "name": "isaacs"
         },
         {
-            "name": "rvagg",
-            "email": "rod@vagg.org"
+            "name": "rvagg"
         },
         {
-            "name": "tootallnate",
-            "email": "nathan@tootallnate.net"
+            "name": "tootallnate"
         }
     ],
     "name": "node-gyp",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/nodejs/node-gyp.git"
