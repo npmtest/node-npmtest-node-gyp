@@ -1,4 +1,7 @@
-# test coverage for  [node-gyp (v3.6.0)](https://github.com/nodejs/node-gyp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gyp.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gyp)
+# npmtest-node-gyp
+
+#### basic test coverage for  [node-gyp (v3.6.0)](https://github.com/nodejs/node-gyp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gyp.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gyp)
+
 #### Node.js native addon build tool
 
 [![NPM](https://nodei.co/npm/node-gyp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-gyp)
